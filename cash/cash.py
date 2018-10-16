@@ -9,8 +9,8 @@ while True:
         break
 
 # Convert dollar to cents $1 = 1 * 100 = 100cents and round it to whole integer
-change = int(round(Amount * 100))
-coin_count = 0
+change = int (round(Amount * 100));
+coin_count = 0;
 
 coin_count += change // 25
 change %= 25
@@ -23,4 +23,5 @@ change %= 5
 
 coin_count += change
 
-print(f"{coin_count}")
+# print(f"{coin_count}")
+print(coin_count)
